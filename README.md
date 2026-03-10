@@ -14,15 +14,15 @@ Identificar variáveis e padrões que influenciam o cancelamento de clientes, ut
 
 - Python
 - Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook / VS Code
+- Openpyxl
+- Nbformat
+- Ipikernel
+- Plotly
+- Jupyter Notebook
 
 ## 📁 Estrutura do projeto
-cancelamento-clientes/
-│
-├── dados/
-│ └── cancelamentos.csv
+
+│── cancelamentos.csv
 │
 ├── analise_cancelamentos.ipynb
 │
@@ -58,7 +58,6 @@ git clone https://github.com/GuiiAquino/analise-dados-cancelamento-clientes.git
 
 
 2. Instale as dependências
-pip install pandas matplotlib seaborn
-
+pip install pandas openpyxl nbformat ipykernel plotly 
 
 3. Execute o notebook ou script de análise.
